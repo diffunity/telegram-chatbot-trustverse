@@ -152,8 +152,6 @@ def reply_PR(update, context):
 def error(update, context):
     logger.warning('Update "%s" caused error "%s"', update, context.error)
 
-TOKEN = "924781641:AAGC-n4kCf6-tKxKQUeihq25LQRfnmYme00"
-
 def unknown_param(update, context):
     text = "For any enquiries please contact us through the link below"
     buttons = InlineKeyboardMarkup([[InlineKeyboardButton(text='Talk to us', url="https://t.me/jhj1123"),
